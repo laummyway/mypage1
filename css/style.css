@@ -1,0 +1,107 @@
+.content{
+    background-image: url(..//images/hayy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content img{
+    height:200;width:200;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h1{
+    text-align: center;
+    color: black;
+    animation: flicker 1.5s infinite alternate;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(14, 14, 10);
+}
+p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.p1{
+    color: black;
+    font-weight: bold;
+}
+.p2{
+    color: rgb(243, 243, 243);
+}
+ul{
+    font-weight: bold;
+    color: black;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #0fa;
+}
+#home{
+    height: 750px;
+    background-image: url(..//images/nice.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#touristspot{
+    height: 750;
+    background-image: url(..//images/about.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#history{
+    height: 750px;
+   background-image: url(..//images/wew.avif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#environment{
+    height: 750;
+    background-image: url(..//images/too.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.amaw   {
+    padding: 80px;
+    align-items: center;
+}
+
+.family{
+    font-size: x-large;
+    font-family: monospace;
+    font-style: bold;
+    color: rgb(127, 6, 241);
+    animation: flicker 1.5s infinite alternate;
+}
+.my{
+    height:300;width:400px;
+    border-radius: 50%;
+}
+
+.color1{
+    color: rgb(11, 12, 12);
+}
+.pic1{
+    height:200;width:200;
+    border-radius: 50%;
+}
+
+@keyframes flicker{
+    0%, 17%, 33%, 50%, 66%, 83%, 100%{
+        text-shadow:
+        0 0 10px #2b1414,
+        0 0 20px rgb(255, 60, 0),
+        0 0 40px #0fa,
+        0 0 70px rgb(5, 1, 248),
+        0 0 110px rgb(255, 0, 170),
+        0 0 160px rgb(255, 0, 0)
+    }
+
+     20%, 40%, 60%, 80%{
+     text-shadow: none;
+    }
+}
